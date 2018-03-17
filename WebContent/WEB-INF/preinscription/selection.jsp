@@ -13,15 +13,11 @@ pageEncoding="UTF-8"%>
 										<div aria-labelledby="closeCard1" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Close</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Edit</a></div>
 									</div>
 								</div>
-								<div class="card-header d-flex align-items-center">
-		 
-												 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ajoutCritere">
-							Ajouter
+								<div class="card-header d-flex align-items-center">		 
+									 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ajoutCritere">Ajouter
 							</button>
 							<form method="post" action="reinit_selection">
-								<button type="submit" class="btn btn-primary" style="margin-left:15px;">
-									Réinitialiser
-								</button>
+								<button type="submit" class="btn btn-primary" style="margin-left:15px;">Réinitialiser</button>
 								<input type="hidden" name="id_vague" value="${id_vague}"/>					
 							</form>
 	
@@ -149,13 +145,11 @@ pageEncoding="UTF-8"%>
 								<i class="fa fa-id-card-o"></i>
 							</div>
 							<textarea id="description" name="description" placeholder="description" rows="4" class="form-control"></textarea>
-						</div>
-						<!-- /.input group -->
+						</div><!-- /.input group -->
 		 </div>
 		 
 		<div class="form-group">
 						<label>Critère:</label>
-
 						<!--<div class="input-group">
 							<div class="input-group-addon">
 								<i class="fa fa-id-card-o"></i>
@@ -166,10 +160,7 @@ pageEncoding="UTF-8"%>
 						<div class="row">
 						 <div class="col-md-4">
 							 <div class="input-group">
-												<div class="input-group-addon">
-													<i class="fa fa-book"></i>
-												</div>
-
+								<div class="input-group-addon"><i class="fa fa-book"></i></div>
 								<select name="portailAdd" id="portailAdd" class="form-control custom-select portail" style="width: 100%;" tabindex="-1" aria-hidden="true">
 									<option selected="${critere.portail}">${critere.portail}</option>
 									
@@ -181,9 +172,7 @@ pageEncoding="UTF-8"%>
 							 </div>
 					<div class="col-md-4">
 						<div class="input-group">
-												<div class="input-group-addon">
-													<i class="fa fa-book"></i>
-												</div>
+								<div class="input-group-addon"><i class="fa fa-book"></i></div>
 								<select name="id_vagueAdd" id="id_vagueAdd" class="form-control custom-select vague" style="width: 100%;" tabindex="-1" aria-hidden="true">
 
 									<option>Vague</option>
@@ -198,9 +187,9 @@ pageEncoding="UTF-8"%>
 					</div>
 					<div class="col-md-2">
 						<select name="opera1Add" id="opera1Add" class="class_opera1">
-									 <option value="AND">Et</option>
+							<option value="AND">Et</option>
 							<option value="OR">Ou</option>
-								 </select>
+						</select>
 					</div>
 					
 
